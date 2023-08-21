@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Roboto',
         fontWeight: '400',
         fontSize: 11,
-        lineHeight: 13,
+        lineHeight: 13 ,
     },
 });
+g
