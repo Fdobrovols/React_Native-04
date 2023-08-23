@@ -14,7 +14,7 @@ const HomeRoutes = () => (
     <Tabs.Navigator screenOptions={homeScreenOptions}>
         <Tabs.Screen
             name="Publications"
-            component={PostsScreen}
+            component={PostsScreen }
             options={{ title: 'Публікації', ...PublicationsHeaderOption }}
         />
         <Tabs.Screen
