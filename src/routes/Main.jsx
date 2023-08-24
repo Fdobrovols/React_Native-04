@@ -14,7 +14,7 @@ const MainRoutes = () => (
         <MainStack.Screen name="Login" component={LoginScreen} />
         <MainStack.Screen name="Home" component={HomeRoutes} />
         <MainStack.Screen
-            name="Comments"
+            name="Comments "
             component={CommentsScreen}
             options={{ title: 'Коментарі', ...CommentsScreenHeaderOption }}
         />
