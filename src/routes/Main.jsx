@@ -26,7 +26,7 @@ const MainRoutes = () => (
     </MainStack.Navigator>
 );
 
-const CommentsScreenHeaderOption = {
+const CommentsScreenHeaderOption =  {
     headerShown: true,
     header: ({ navigation, route, options }) => (
         <CreateHeader navigation={navigation} route={route} options={options} to={'User'} />
