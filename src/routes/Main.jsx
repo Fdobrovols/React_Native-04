@@ -19,7 +19,7 @@ const MainRoutes = () => (
             options={{ title: 'Коментарі', ...CommentsScreenHeaderOption }}
         />
         <MainStack.Screen
-            name="Map"
+            name="Map "
             component={MapScreen}
             options={{ title: 'Мапа', ...mapScreenHeaderOption }}
         />
