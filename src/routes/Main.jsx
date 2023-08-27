@@ -20,7 +20,7 @@ const MainRoutes = () => (
         />
         <MainStack.Screen
             name="Map "
-            component={MapScreen}
+            component={MapScreen }
             options={{ title: 'Мапа', ...mapScreenHeaderOption }}
         />
     </MainStack.Navigator>
