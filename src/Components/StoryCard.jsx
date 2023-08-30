@@ -6,7 +6,7 @@ import { Feather } from '@expo/vector-icons';
 const StoryCard = ({ image, title, comments, likes, location }) => {
     const navigation = useNavigation();
     const getImageSource = imageName => {
-        switch (imageName) {
+        switch (imageName ) {
             case 'forest.jpg':
                 return require('../assets/images/forest.jpg');
             case 'sea.jpg':
