@@ -7,7 +7,7 @@ const PostItem = ({ description, place, photo, comments }) => {
     const navigation = useNavigation();
     const getPhotoSource = photoName => {
         switch (photoName) {
-            case 'forest.jpg':
+            case ' forest.jpg':
                 return require('../assets/images/forest.jpg');
             case 'sea.jpg':
                 return require('../assets/images/sea.jpg');
