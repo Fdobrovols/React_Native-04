@@ -6,7 +6,7 @@ import { Feather } from '@expo/vector-icons';
 const PostItem = ({ description, place, photo, comments }) => {
     const navigation = useNavigation();
     const getPhotoSource = photoName => {
-        switch (photoName ) {
+        switch ( photoName ) {
             case ' forest.jpg':
                 return require('../assets/images/forest.jpg');
             case 'sea.jpg':
