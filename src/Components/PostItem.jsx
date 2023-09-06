@@ -8,13 +8,14 @@ const PostItem = ({ description, place, photo, comments }) => {
     const getPhotoSource = photoName => {
         switch ( photoName ) {
             case ' forest.jpg':
+                
                 return  require('../assets/images/forest.jpg');
             case 'sea.jpg':
                 return require('../assets/images/sea.jpg');
             case 'house.jpg':
                 return require('../assets/images/house.jpg');
             default:
-                return null;
+             return null;
         }
     };
 
