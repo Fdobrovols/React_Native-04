@@ -3,7 +3,7 @@ import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 
-const PostItem = ({ description, place, photo, comments }) => {
+const  PostItem = ({ description, place, photo, comments }) => {
     const navigation = useNavigation();
     const getPhotoSource = photoName => {
         switch ( photoName ) {
