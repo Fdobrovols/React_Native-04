@@ -15,6 +15,7 @@ const  PostItem = ({ description, place, photo, comments }) => {
             case 'house.jpg':
                 return require('../assets/images/house.jpg');
             default:
+                
              return null;
         }
     };
