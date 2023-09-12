@@ -21,7 +21,7 @@ const  PostItem = ({ description, place, photo, comments }) => {
     };
 
     return (
-        <View style={styles.container}>
+        <View style= {styles.container}>
             <View>
                 <Image source={getPhotoSource(photo)} style={styles.photo} />
                 <Text style={styles.title}>{description}</Text>
