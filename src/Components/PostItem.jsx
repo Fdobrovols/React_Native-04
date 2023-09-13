@@ -1,27 +1,27 @@
 import React from 'react';
-import {  View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 
-const  PostItem = ({ description, place, photo, comments }) => {
+const PostItem = ({ description, place, photo, comments }) => {
     const navigation = useNavigation();
     const getPhotoSource = photoName => {
-        switch ( photoName ) {
+        switch (photoName) {
             case ' forest.jpg ':
-                
-                return  require('../assets/images/forest.jpg');
+
+                return require('../assets/images/forest.jpg');
             case 'sea.jpg':
                 return require('../assets/images/sea.jpg');
             case 'house.jpg':
                 return require('../assets/images/house.jpg');
             default:
-                
-             return null;
+
+                return null;
         }
     };
 
     return (
-        <View style= {styles.container}>
+        <View style={styles.container}>
             <View>
                 <Image source={getPhotoSource(photo)} style={styles.photo} />
                 <Text style={styles.title}>{description}</Text>
